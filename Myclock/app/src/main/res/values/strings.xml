@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Myclock</string>
+
+
+    <string name="cancel">拒绝</string>
+    <string name="submit">同意</string>
+    <string name="perDialog">""</string>
+    <string name="copyRight">
+        Copyright © CWL.All Rights Reserved.
+    </string>
+</resources>

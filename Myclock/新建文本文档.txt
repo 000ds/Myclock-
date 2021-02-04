@@ -1,0 +1,9 @@
+Android studio实现简单闹钟流程
+1、简单的时间格式转化 CalTime.java
+2、日期选择、时间选择 AddclockActivity.java里调用 CalTime.java
+3、确定时间后开启服务 ClockService.java里面initRemind函数选择时区
+4、书写一个实体类调用ClockBean
+5、书写sqlite数据库保存数据MyDatabaseHelper
+6、在服务里使用startAlertActivity定时在AlarmManager里设置到点发送一条广播
+7、实现一个ClockReceiver接收到定点的广播后发送一条通知
+8、接收到通知后实现播放音乐和提示栏弹出，并选择关闭通知，结束本次服务
